@@ -2796,6 +2796,7 @@
 /obj/item/toy/seashell,
 /obj/machinery/light/small/directional/north,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
+/obj/item/toy/seashell,
 /turf/open/floor/iron/white,
 /area/ruin/space/ancientstation/charlie/hall)
 "mh" = (
@@ -2875,7 +2876,7 @@
 /area/ruin/space/solars/ancientstation/charlie/solars)
 "mA" = (
 /obj/machinery/conveyor{
-	id = "beta"
+	id = "mining"
 	},
 /turf/open/floor/plating,
 /area/ruin/space/ancientstation/beta/mining)
@@ -2931,7 +2932,7 @@
 "mK" = (
 /obj/machinery/conveyor{
 	dir = 10;
-	id = "beta"
+	id = "mining"
 	},
 /turf/open/floor/plating,
 /area/ruin/space/ancientstation/beta/mining)
@@ -2980,7 +2981,7 @@
 "mU" = (
 /obj/machinery/conveyor{
 	dir = 8;
-	id = "beta"
+	id = "mining"
 	},
 /obj/structure/plasticflaps,
 /obj/effect/turf_decal/tile/brown/half/contrasted,
@@ -3940,7 +3941,7 @@
 /area/ruin/space/ancientstation/beta/supermatter)
 "sZ" = (
 /obj/machinery/conveyor{
-	id = "beta"
+	id = "mining"
 	},
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/plating,
@@ -6133,11 +6134,6 @@
 "IU" = (
 /obj/structure/closet/crate/engineering,
 /obj/item/circuitboard/machine/smes,
-/obj/item/stock_parts/power_store/cell/high/empty,
-/obj/item/stock_parts/power_store/cell/high/empty,
-/obj/item/stock_parts/power_store/cell/high/empty,
-/obj/item/stock_parts/power_store/cell/high/empty,
-/obj/item/stock_parts/power_store/cell/high/empty,
 /obj/item/stock_parts/capacitor,
 /obj/effect/decal/cleanable/dirt,
 /obj/item/circuitboard/machine/thermomachine,
@@ -6150,6 +6146,11 @@
 /obj/item/stock_parts/matter_bin,
 /obj/item/stock_parts/matter_bin,
 /obj/item/stock_parts/matter_bin,
+/obj/item/stock_parts/power_store/battery/high/empty,
+/obj/item/stock_parts/power_store/battery/high/empty,
+/obj/item/stock_parts/power_store/battery/high/empty,
+/obj/item/stock_parts/power_store/battery/high/empty,
+/obj/item/stock_parts/power_store/battery/high/empty,
 /turf/open/floor/plating,
 /area/ruin/space/ancientstation/beta/supermatter)
 "IV" = (
@@ -7881,7 +7882,7 @@
 /area/ruin/space/ancientstation/charlie/sec)
 "TM" = (
 /obj/machinery/conveyor_switch/oneway{
-	id = "beta"
+	id = "mining"
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/window/brigdoor/right/directional/east,
